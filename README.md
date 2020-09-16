@@ -2,7 +2,6 @@
 
 # Breakpoint Image
 
-C:\Users\aoyet\desktop\c++ files\sites\csc 511\assignments\assignment_2\csc511-assignment-2-sept-16\Assignment2-Breakpoint.png
 
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
