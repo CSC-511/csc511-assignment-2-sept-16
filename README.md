@@ -1,4 +1,4 @@
-# assignment-2
+# assignment-2-final
 
 This app introduces multiple helper methods and files. 
 
@@ -22,7 +22,7 @@ You will need the following things properly installed on your computer.
 ## Installation
 
 * `git clone <repository-url>` this repository
-* `cd assignment-2`
+* `cd assignment-2-final`
 * `npm install`
 
 ## Running / Development
