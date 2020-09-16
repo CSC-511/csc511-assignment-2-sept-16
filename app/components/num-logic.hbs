@@ -1,0 +1,59 @@
+<div>
+    <input
+        id="num"
+        placeholder=0
+        value={{currentValue}}
+        name={{@num}}
+        type="string"
+        oninput={{action changeValue}}
+    >
+    <br>
+    <button onclick={{action addToArray currentValue}}>Add Number</button>
+    <button onclick={{action clearArray}}>Clear Array</button>
+    <p>{{if nums (sum-num nums) 0}}</p>
+    <label>A</label>
+    <br>
+    <input
+        id="numa"
+        placeholder=0
+        value={{currentValueA}}
+        name={{@numa}}
+        type="number"
+        oninput={{action changeValueA}}
+    >
+    <br>
+    <label>B</label>
+    <br>
+    <input
+        id="numb"
+        placeholder=0
+        value={{currentValueB}}
+        name={{@numb}}
+        type="number"
+        oninput={{action changeValueB}}
+    >
+    <br>
+    <button onclick={{action addToCompareAr currentValueA currentValueB}}>Compare Numbers</button>
+    
+    <p>Are A and B Equal? {{if compNums (eq compNums)}}</p>
+    <p>Is A greater than B? {{if compNums (gte compNums)}}</p>
+
+    <input
+        id="numc"
+        placeholder=0
+        value={{currentValueC}}
+        name={{@numc}}
+        type="number"
+        oninput={{action changeValueC}}
+    >
+    <br>
+    <button onclick={{action addToFormat currentValueC}}>Format Number</button>
+    <p>{{if formattedNum (format formattedNum)}}</p>
+    
+    <div class="pics">
+        <img src="assets/images/debugger1.jpg" >
+        <img src="assets/images/debugger2.jpg" >
+    </div>
+    
+    
+</div>
