@@ -1,7 +1,8 @@
 # assignment-two-final
 
 This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app uses helpers to sum compare and formate numbers using arrays and other fuctions
+Screen shot of breakpoint:https://gyazo.com/4ce2e6aebb3db072d7c7a20d6259aa9d
 
 ## Prerequisites
 
