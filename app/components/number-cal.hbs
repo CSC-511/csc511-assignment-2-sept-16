@@ -1,0 +1,41 @@
+
+<h6>Use for Manual Testing</h6>
+
+<div class="numberDiv">
+
+    <div>
+        <input type="text" id="firstNo" placeholder="Number 1">
+    </div>
+    <div>
+        <input type="text" id="secondNo" placeholder="Number 2">
+    </div>
+    <div>
+        <button onclick={{action getInput}} type="submit">Add Number 1 and Number 2</button>
+    </div>
+   
+</div>
+
+<div class="solutionBar">
+ <h5>Output</h5>
+    <p><span id="sol"></span>{{ solution }}</p>
+    <p>Eq: <span id="manualEq"></span> {{eq currentNo1 currentNo2}}</p>
+    <p>Gte:{{ currentNo1 }} > {{ currentNo2 }} : {{gte currentNo1 currentNo2 }}</p>
+</div>
+   
+<div class="ass_2">
+    <h6>Default Values</h6>
+    <p> Is {{compNum1}} == {{ compNum2 }} : {{ eq compNum1 compNum2 }} </p>
+    <p> Is {{compNum3}} == {{ compNum4 }} : {{ eq compNum3 compNum4 }} </p>
+
+    <p>MyArr [{{myArr }}]  : {{ totalSum myArr }}</p>
+    <p>Error Array [{{ errorArr }}] : {{totalSum errorArr }}</p>
+
+    <p>Gte: {{ compNum1 }} > {{ compNum2 }} : {{ gte compNum1 compNum2 }}</p>
+    <p>Gte: {{ compNum3 }} > {{ compNum4 }} : {{ gte compNum3 compNum4 }}</p>
+
+    <p>Formarted Number: {{formatNum fNum1}}</p>
+    <p>Formarted Number: {{formatNum fNum2}}</p>
+</div>
+
+
+     
