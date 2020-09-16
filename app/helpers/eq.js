@@ -1,9 +1,13 @@
-import Ember from 'ember';
+import { helper } from '@ember/component/helper';
 
-export function eq([val1, val2]) {
-    if(val1 == val2)
-      return true 
-    return false
+function eq(params) {
+  let isEqual = 0;
 
-}
-export default Ember.Helper.helper(eq);
+  if(params[0] === params[1])
+    isEqual = 1;
+
+  return isEqual;
+};
+
+export default helper(eq);
+

@@ -1,9 +1,35 @@
-<h1> Daniel Dolan Assignment 2 </h1>
-<h2>The sum of the array is {{sumArray}} is <u> {{sum sumArray }} </u></h2>
-<h2>The sum of the array is <u>{{sum errorArray}}</u></h2>
-<h2>Comparing the two values  of  <u>{{test1}} and {{test2}} is {{eq test1 test2}}</u> </h2>
-<h2>Comparing the two values  of  <u>{{test1}} and {{test3}} is {{eq test1 test3}}</u> </h2>
-<h2>{{test1}} is greater than or equal to <u>{{test3}} is {{gte test1 test3}}</u> </h2>
-<h2>{{test2}} is greater than or equal to <u>{{test3}} is {{gte test2 test3}}</u> </h2>
-<h2>{{test1}} is greater than or equal to {{test2}} is <u>{{gte test1 test2}}</u> </h2>
-<h2>{{test4}} after formatting is {{formEC test4}}</h2>
+<div>
+    <h1>Assignmnet 2 -- Implementing Helpers</h1><br>
+
+    <p>First Helper (SUM): 1 2 3 4 5 6 7 8 9 10</p>
+    <p>{{sum 1 2 3 4 5 6 7 8 9 10}}</p>
+
+    <p>First Helper w/ Error (SUM): 1 2 3 4 5 'pineapple' 7 8 9 10</p>
+    <p>{{sum 1 2 3 4 5 'pineapple' 7 8 9 10}}</p>
+    <br>
+
+    <p>Second Helper (EQ): comparing 2 and 2</p>
+    <p>{{if (eq 2 2) "truthy" "falsy"}}</p>
+
+    <p>Second Helper (EQ): comparing 2 and '2'</p>
+    <p>{{if (eq 2 '2') "truthy" "falsy"}}</p>
+    <br>
+
+    <p>Third Helper (GTE): comparing 2 and 1</p>
+    <p>{{if (gte 2 1) "truthy" "falsy"}}</p>
+
+    <p>Third Helper (GTE): comparing 1 and 2</p>
+    <p>{{if (gte 1 2) "truthy" "falsy"}}</p> 
+    <br>
+
+    <p>EC: Conditional BP</p>
+    <p>{{sum 1 2}}</p>
+    <p>{{sum 2 2}}</p>  {{!-- conditional breakpoint will pause when this line is run --}}
+    <br>
+
+    <p>EC: Number Formater: 456789</p>
+    <p>{{number-formatter 4567890}}</p>
+
+</div>
+
+{{yield}}

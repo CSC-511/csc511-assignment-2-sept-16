@@ -1,9 +1,12 @@
-import Ember from 'ember';
+import { helper } from '@ember/component/helper';
 
-export function gte([val1, val2]) {
-    if(val1 >= val2)
-      return true 
-    return false
+function gte(params) {
+  let isGte = false;
 
-}
-export default Ember.Helper.helper(gte);
+  if(params[0] >= params[1])
+    isGte = true;
+
+  return isGte;
+};
+
+export default helper(gte);
