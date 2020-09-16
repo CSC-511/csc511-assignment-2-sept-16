@@ -6,4 +6,5 @@ export default class BaseAssignmentComponent extends Component {
     test1 = 9
     test2 = 7
     test3 = 9
+    test4=9000000000
 }
