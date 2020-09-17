@@ -1,3 +1,10 @@
+Image for Breakpoint:
+![alt text](/images/breakpoint.png)
+
+
+
+
+
 # assignment-2-final
 
 This README outlines the details of collaborating on this Ember application.
