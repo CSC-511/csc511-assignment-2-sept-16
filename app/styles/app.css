@@ -1,0 +1,23 @@
+input {
+    width: auto;
+    border: none;
+    border-bottom: 2px solid red;
+}
+
+button {
+    color:white;
+    background-color: #DC143C;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 8px;
+    margin: 4px 2px;
+}
+p {
+    color: red;
+}
+
+img {
+    border: 1px solid #ccc;
+    width: 40%;
+    padding: 25px;
+}
