@@ -1,8 +1,5 @@
 # assignment-2-final
 
-#Breakpoint Image
-![Assignment2-Breakpoint](https://user-images.githubusercontent.com/54692909/93375748-a17d2380-f826-11ea-9e9a-76f186cc9f39.png)
-
 This README outlines the details of collaborating on this Ember application.
 A short introduction of this app could easily go here.
 
