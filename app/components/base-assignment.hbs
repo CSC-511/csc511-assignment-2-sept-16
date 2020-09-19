@@ -1,0 +1,13 @@
+<div>
+    <p>Add numbers</p>
+    <input oninput={{action assign}}>
+    <div>{{numSize}} Numbers: {{num}} </div>
+    Answer = {{format (sum num)}}
+</div>
+<div>
+    <p>Enter 2 values</p>
+    <input oninput={{action assignArg1}}> 
+    <input oninput={{action assignArg2}}>
+    <div>The 2 values are: {{eq this.arg1 this.arg2}}</div>
+    <div>{{gte this.arg1 this.arg2}}</div>
+</div>
