@@ -1,0 +1,35 @@
+<div>
+    <h1>Assignmnet 2 -- Implementing Helpers</h1><br>
+
+    <p>First Helper (SUM): 1 2 3 4 5 6 7 8 9 10</p>
+    <p>{{sum 1 2 3 4 5 6 7 8 9 10}}</p>
+
+    <p>First Helper w/ Error (SUM): 1 2 3 4 5 'pineapple' 7 8 9 10</p>
+    <p>{{sum 1 2 3 4 5 'pineapple' 7 8 9 10}}</p>
+    <br>
+
+    <p>Second Helper (EQ): comparing 2 and 2</p>
+    <p>{{if (eq 2 2) "truthy" "falsy"}}</p>
+
+    <p>Second Helper (EQ): comparing 2 and '2'</p>
+    <p>{{if (eq 2 '2') "truthy" "falsy"}}</p>
+    <br>
+
+    <p>Third Helper (GTE): comparing 2 and 1</p>
+    <p>{{if (gte 2 1) "truthy" "falsy"}}</p>
+
+    <p>Third Helper (GTE): comparing 1 and 2</p>
+    <p>{{if (gte 1 2) "truthy" "falsy"}}</p> 
+    <br>
+
+    <p>EC: Conditional BP</p>
+    <p>{{sum 1 2}}</p>
+    <p>{{sum 2 2}}</p>  {{!-- conditional breakpoint will pause when this line is run --}}
+    <br>
+
+    <p>EC: Number Formater: 456789</p>
+    <p>{{number-formatter 4567890}}</p>
+
+</div>
+
+{{yield}}

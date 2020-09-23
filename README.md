@@ -1,7 +1,14 @@
 # assignment-2-final
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app introduces multiple helper methods and files. 
+
+One helper adds N numbers through a forEach method. 
+
+Another helper compares two arguements by value and datatype. 
+
+Another helper compares if two numbers, if the first is greater than or equal to the second number.
+
+The last helper formates the number by adding , where they need to be.
 
 ## Prerequisites
 
