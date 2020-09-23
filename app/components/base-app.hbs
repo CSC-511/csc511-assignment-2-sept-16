@@ -1,0 +1,25 @@
+<div>
+    <h1>Yeting Tan - Assignment #2</h1>
+
+    We have 2 arrays:<br /> 
+    Array 1:
+        {{#each this.mArray1 as |mElement|}}
+            {{mElement}}
+        {{/each}}
+    <br />
+    Array 2:
+        {{#each this.mArray2 as |mElement|}}
+            {{mElement}}
+        {{/each}}    
+
+    <br />  <br />   
+    
+    Sum up array 1: {{sum this.mArray1}}  
+    <br />
+    Sum up array 2: {{sum this.mArray2}}  
+    <br />
+    check equal - 5,5: {{eq 5 5}} <br />
+    check equal - 5,4: {{eq 5 4}} <br />
+    check gte - 8,5: {{gte 8 4}}  <br />
+    check gte - 2,"4": {{gte 2 "4"}}  <br />
+</div>

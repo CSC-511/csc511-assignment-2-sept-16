@@ -1,7 +1,7 @@
 # assignment-2-final
-
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+This app will provide you a helper-sum.js to calculate the sum of n numbers. It will return you Error message if not all values are number. 
+It also gives you helper eq.js and gte.js.
+A pic "breakpoint.png" was stored inside.
 
 ## Prerequisites
 
