@@ -1,0 +1,60 @@
+<div>
+    <p>Add Numbers to the Array</p>
+<input
+        id="num"
+        placeholder=0
+        value={{currentValue}}
+        name={{@num}}
+        type="string"
+        oninput={{action changeValue}}
+    >
+    <br>
+    <button onclick={{action addToArray currentValue}}>Add Number</button>
+    <button onclick={{action clearArray}}>Clear Array</button>
+    <p>{{if numbs (numhelper numbs) 0}}</p>
+
+    <label>A</label>
+
+    <br>
+    <input
+        id="numA"
+        placeholder=0
+        value={{currentValueA}}
+        name={{@numa}}
+        type="number"
+        oninput={{action changeValueA}}
+    >
+    <br>
+
+    <label>B</label>
+
+    <br>
+    <input
+        id="numB"
+        placeholder=0
+        value={{currentValueB}}
+        name={{@numb}}
+        type="number"
+        oninput={{action changeValueB}}
+    >
+    <br>
+    <button onclick={{action CompareAr currentValueA currentValueB}}>Compare Numbers</button>
+    
+    <p>Are A and B Equal: {{if comparenumbs (eq comparenumbs)}}</p>
+    <p>Is A greater Num B: {{if comparenumbs (gte comparenumbs)}}</p>
+
+    <input
+        id="numC"
+        placeholder=0
+        value={{currentValueC}}
+        name={{@numc}}
+        type="number"
+        oninput={{action changeValueC}}
+    >
+    <br>
+    <button onclick={{action Format currentValueC}}>Format Number</button>
+    <p>{{if formattedNum (format_num formattedNum)}}</p>
+ 
+</div>
+
+{{yield}}
